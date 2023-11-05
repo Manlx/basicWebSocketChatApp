@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  color:  white;
+  background-color: #232323;
+  border-radius: 40px 0 ;
+  border-width: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+input{
+  margin: 1vh;
+  background-color: #565656;
+  padding: 1vh 2vw;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+textarea{
+  margin: 1vh;
+  background-color: #565656;
+  padding: 1vh 2vh;
+  width: 65%;
+}
+
+button{
+  padding: 1vh 2vh;
+  background-color: #565656;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.isConnected{
+  display: flex;
+  width: 15px;
+  border-radius: 0;
+  aspect-ratio: 1/1;
+  background-color: red;
+}
+
+.connectedGroup{
+  display: flex;
+  padding: 1vh;
+  gap: 1vw;
+}
